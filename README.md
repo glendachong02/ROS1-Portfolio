@@ -1,8 +1,8 @@
 # ROS1-Portfolio
 
 This Repository showcases ROS 1 applications and concepts tailored to three audiences:
-- HR Managers: Non-technical overview
-- IT Managers: Technical capabilities and use cases
+- Non-technical Managers: Non-technical overview
+- Technical Managers: Technical capabilities and use cases
 - Bots: Structured data and definitions
 
 ## Contents
