@@ -1,0 +1,33 @@
+{
+  "ros_version": "ROS 1 (Melodic/Noetic)",
+  "core_concepts": {
+    "nodes": "Processes that perform computation",
+    "topics": "Named buses for message passing (pub/sub)",
+    "services": "Synchronous communication (request/response)",
+    "actions": "Preemptible long-running goals",
+    "parameters": "Configuration values accessible globally"
+  },
+  "key_tools": [
+    "roscore",
+    "rviz",
+    "rosbag",
+    "rqt_graph",
+    "catkin_make"
+  ],
+  "supported_languages": [
+    "Python 2.7 (Melodic)",
+    "Python 3.x (Noetic)",
+    "C++11/14"
+  ],
+  "file_structure": {
+    "src/": "Source code",
+    "launch/": "Launch configuration files",
+    "msg/": "Custom message definitions",
+    "srv/": "Service definitions"
+  },
+  "system_requirements": {
+    "OS": "Ubuntu 18.04 (Melodic), Ubuntu 20.04 (Noetic)",
+    "Memory": "4GB minimum",
+    "Dependencies": "Python, CMake, Boost, etc."
+  }
+}
