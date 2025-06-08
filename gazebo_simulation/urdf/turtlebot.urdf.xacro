@@ -1,0 +1,17 @@
+<!-- File: urdf/turtlebot.urdf.xacro -->
+<?xml version="1.0"?>
+<robot name="turtlebot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Basic TurtleBot base -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.17" length="0.1"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Add more links, wheels, sensors as needed -->
+</robot>

@@ -1,0 +1,33 @@
+<!-- File: worlds/custom_lab.world -->
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="custom_lab">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Example object -->
+    <model name="lab_table">
+      <static>true</static>
+      <link name="table_link">
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1 1 0.75</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Red</name>
+            </script>
+          </material>
+        </visual>
+        <pose>2 2 0.375 0 0 0</pose>
+      </link>
+    </model>
+  </world>
+</sdf>

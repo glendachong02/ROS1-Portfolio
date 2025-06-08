@@ -1,0 +1,6 @@
+<!-- File: launch_files/empty_world.launch -->
+<launch>
+  <!-- Start Gazebo with an empty world -->
+  <param name="use_sim_time" value="true"/>
+  <node name="gazebo" pkg="gazebo_ros" type="gazebo" args="-s libgazebo_ros_factory.so" output="screen"/>
+</launch>

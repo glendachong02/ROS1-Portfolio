@@ -1,0 +1,14 @@
+<!-- File: worlds/turtlebot_playground.world -->
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="turtlebot_playground">
+    <!-- Ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <!-- Sunlight -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  </world>
+</sdf>
