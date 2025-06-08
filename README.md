@@ -23,7 +23,7 @@ This repository includes:
 
 ## 🧑‍💼 For Non-Technical
 
-📄 [overview/Non-Technical.md](Non-technical.md)
+📄 [Non-Technical.md](Non-technical.md)
 
 - What is ROS 1?
 - Why it's important in modern robotics hiring
@@ -34,7 +34,7 @@ This repository includes:
 
 ## 🧑‍💻 For Technical
 
-📄 [overview/Technical.md](Technical.md)
+📄 [Technical.md](Technical.md)
 
 - ROS 1 architecture (nodes, topics, services)
 - System integration: sensors, SLAM, navigation, simulation
@@ -45,7 +45,7 @@ This repository includes:
 
 ## 🤖 For Bots / Automation Systems
 
-🧾 [overview/bots.json](bots.json)
+🧾 [bots.json](bots.json)
 
 Includes structured data:
 - Core ROS concepts

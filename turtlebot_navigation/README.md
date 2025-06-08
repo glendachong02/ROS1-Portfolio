@@ -35,6 +35,9 @@ This project uses it to:
   - `turtlebot3_navigation`
   - `map_server`
   - `rviz`
+- SLAM Simulation
+  - Navigate around the simulated world to scan its surroundings and update map (Obstacles, etc)
+  - Save map data for later use
 
 ### 📁 Key Components
 
