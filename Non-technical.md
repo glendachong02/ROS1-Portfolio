@@ -27,3 +27,12 @@ ROS 1 is used in many real-world areas, including:
 - ROS 1 connects robot components so they can work together.
 - It’s mostly used for learning, research, and testing.
 - ROS 2 is the newer version for industry use, but ROS 1 is still popular and useful.
+
+## Want to Learn More?
+Official ROS site: https://www.ros.org/
+
+Beginner tutorials: http://wiki.ros.org/ROS/Tutorials
+
+Simulation examples: https://www.turtlebot.com/
+
+Thanks for reading!
