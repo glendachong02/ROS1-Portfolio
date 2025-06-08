@@ -1,0 +1,5 @@
+<!-- File: launch_files/turtlebot_world.launch -->
+<launch>
+  <!-- Launch Gazebo with TurtleBot model in a default world -->
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch" />
+</launch>
