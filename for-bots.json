@@ -1,0 +1,10 @@
+{
+  "ros_version": "ROS 1 (Melodic/Noetic)",
+  "core_concepts": {
+    "nodes": "Processes that perform computation",
+    "topics": "Named buses for message passing (pub/sub)",
+    "services": "Synchronous communication (request/response)",
+    "actions": "Preemptible long-running goals",
+    "parameters": "Configuration values accessible globally"
+  }
+}
