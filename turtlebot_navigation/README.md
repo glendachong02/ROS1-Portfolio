@@ -1,59 +1,51 @@
-# 🤖 TurtleBot3 Navigation Demo
+# 🤖 TurtleBot3 Navigation Project
 
-This project contains example launch files and configurations for running TurtleBot3 with:
+This subproject showcases the use of **TurtleBot3** for autonomous navigation and mapping using the ROS 1 framework. It is presented in a format understandable to:
 
-- 🕹️ Keyboard Teleoperation
-- 🧭 SLAM (Mapping)
-- 🌍 AMCL (Autonomous Navigation using a saved map)
-- 👁️ RViz visualization
-
----
-
-## 🧰 Requirements
-
-- Ubuntu 18.04 (ROS Melodic) or 20.04 (ROS Noetic)
-- TurtleBot3 packages:
-  ```bash
-  sudo apt install ros-${ROS_DISTRO}-turtlebot3*
-  ```
-- Set your model:
-  ```bash
-  export TURTLEBOT3_MODEL=burger
-  ```
+- 🧑‍💼 Non-Technical Managers
+- 🧑‍💻 Technical Managers & Developers
+- 🤖 Bots / Automated Readers
 
 ---
 
-## 🚀 How to Use
+## 🧑‍💼 Non-Technical Summary
 
-### 1️⃣ Bringup (real or simulated)
-```bash
-roslaunch turtlebot3_bringup turtlebot3_robot.launch
-```
+TurtleBot3 is a low-cost, open-source robot designed for learning and testing robotics software. It enables:
+- Indoor autonomous navigation
+- Real-time obstacle detection and avoidance
+- Smart team training in automation and AI
+- Educational demonstrations in R&D and innovation
 
-### 2️⃣ Teleoperate with Keyboard
-```bash
-roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-```
-
-### 3️⃣ SLAM (Mapping)
-```bash
-roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
-```
-
-### 4️⃣ Save the Map
-```bash
-rosrun map_server map_saver -f ~/my_map
-```
-
-Copy `my_map.yaml` and `my_map.pgm` into the `maps/` folder in this repo.
-
-### 5️⃣ Navigation
-```bash
-roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$(rospack find YOUR_PACKAGE_NAME)/maps/my_map.yaml
-```
+This project uses it to:
+- Build maps using sensors (SLAM)
+- Navigate indoor spaces autonomously
+- Visualize real-time robot data (RViz)
 
 ---
 
-## 🖼️ RViz Configuration
-A custom `rviz/navigation.rviz` file is included for a clear layout of robot position, map, and laser scan.
+## 🧑‍💻 Technical Overview
 
+### ✅ Technologies Used
+- **ROS 1** (Melodic or Noetic)
+- TurtleBot3 (Burger model)
+- Packages:
+  - `turtlebot3_bringup`
+  - `turtlebot3_teleop`
+  - `turtlebot3_slam`
+  - `turtlebot3_navigation`
+  - `map_server`
+  - `rviz`
+
+### 📁 Key Components
+
+| File/Folder            | Description |
+|------------------------|-------------|
+| `launch/`              | Bringup, teleop, SLAM, and navigation launch files |
+| `maps/`                | Saved map files for localization |
+| `rviz/navigation.rviz` | RViz config showing map, laser, robot, goals |
+
+### 🧪 Demo Steps
+
+1. **Bring up the robot:**
+   ```bash
+   roslaunch turtlebot3_bringup turtlebot3_robot.launch
