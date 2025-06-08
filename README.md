@@ -2,8 +2,8 @@
 
 Welcome to the ROS 1 Digital Portfolio — a structured showcase of Robot Operating System (ROS) 1 concepts, use cases, and demonstrations, tailored for three different audiences:
 
-- 🧑‍💼 **HR Manager**: Understand how ROS fits into workforce needs and tech roles
-- 🧑‍💻 **IT Manager**: Dive into technical systems, architecture, and tooling
+- 🧑‍💼 **Non-Technical**: Understand how ROS fits into workforce needs and tech roles
+- 🧑‍💻 **Technical**: Dive into technical systems, architecture, and tooling
 - 🤖 **Bots/Docs Readers**: Access machine-readable metadata for automation and indexing
 
 ---
