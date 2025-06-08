@@ -57,8 +57,3 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$(rospack
 ## 🖼️ RViz Configuration
 A custom `rviz/navigation.rviz` file is included for a clear layout of robot position, map, and laser scan.
 
----
-
-## 📄 License
-
-MIT License. Free to use and modify.
