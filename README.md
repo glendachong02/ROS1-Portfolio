@@ -1,6 +1,6 @@
 # 🤖 ROS 1 Digital Portfolio
 
-Welcome to the ROS 1 Digital Portfolio — a structured showcase of Robot Operating System (ROS) 1 concepts, use cases, and demonstrations, tailored for three different audiences:
+Welcome to Team 3 ROS 1 Digital Portfolio — a structured showcase of Robot Operating System (ROS) 1 concepts, use cases, and demonstrations, tailored for three different audiences:
 
 - 🧑‍💼 **Non-Technical**: Understand how ROS fits into workforce needs and tech roles
 - 🧑‍💻 **Technical**: Dive into technical systems, architecture, and tooling
