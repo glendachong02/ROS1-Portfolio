@@ -1,5 +1,7 @@
 # ROS1-Portfolio
 
+By Team 3 - Nigel, Yuentao, Ramonito, Glenda, Jay, Jarvis
+
 This Repository showcases ROS 1 applications and concepts tailored to three audiences:
 - Non-technical Managers: Non-technical overview
 - Technical Managers: Technical capabilities and use cases
