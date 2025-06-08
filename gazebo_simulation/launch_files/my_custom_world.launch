@@ -1,0 +1,10 @@
+<!-- File: launch_files/my_custom_world.launch -->
+<launch>
+  <!-- Launch Gazebo with a custom world -->
+  <param name="use_sim_time" value="true"/>
+
+  <node name="gazebo" pkg="gazebo_ros" type="gazebo" args="$(find my_simulation_package)/worlds/custom_lab.world -s libgazebo_ros_factory.so" output="screen"/>
+
+  <!-- Optional: load your robot description here -->
+  <!-- <param name="robot_description" command="$(find xacro)/xacro '$(find my_simulation_package)/urdf/my_robot.urdf.xacro'" /> -->
+</launch>
