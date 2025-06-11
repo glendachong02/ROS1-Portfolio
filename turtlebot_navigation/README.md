@@ -1,54 +1,83 @@
-# 🤖 TurtleBot3 Navigation Project
+# TurtleBot3 Navigation Project
 
-This subproject showcases the use of **TurtleBot3** for autonomous navigation and mapping using the ROS 1 framework. It is presented in a format understandable to:
-
-- 🧑‍💼 Non-Technical Managers
-- 🧑‍💻 Technical Managers & Developers
-- 🤖 Bots / Automated Readers
+This subproject demonstrates autonomous indoor navigation and mapping using TurtleBot3 with the ROS 1 framework. It is structured to support both non-technical and technical audiences, while remaining machine-readable for automated indexing systems.
 
 ---
 
-## 🧑‍💼 Non-Technical Summary
+## Project Summary
 
-TurtleBot3 is a low-cost, open-source robot designed for learning and testing robotics software. It enables:
-- Indoor autonomous navigation
-- Real-time obstacle detection and avoidance
-- Smart team training in automation and AI
-- Educational demonstrations in R&D and innovation
+TurtleBot3 is a compact, affordable, open-source robot platform used in robotics research, education, and prototyping. This project uses TurtleBot3 to:
 
-This project uses it to:
-- Build maps using sensors (SLAM)
-- Navigate indoor spaces autonomously
-- Visualize real-time robot data (RViz)
+- Build 2D maps of indoor environments using sensor data (SLAM)
+- Navigate autonomously with obstacle detection and path planning
+- Visualize robot state and mapping progress in RViz
 
 ---
 
-## 🧑‍💻 Technical Overview
+## Audience Sections
 
-### ✅ Technologies Used
-- **ROS 1** (Melodic or Noetic)
-- TurtleBot3 (Burger model)
-- Packages:
-  - `turtlebot3_bringup`
-  - `turtlebot3_teleop`
-  - `turtlebot3_slam`
-  - `turtlebot3_navigation`
-  - `map_server`
-  - `rviz`
-- SLAM Simulation
-  - Navigate around the simulated world to scan its surroundings and update map (Obstacles, etc)
-  - Save map data for later use
+### Non-Technical Overview
 
-### 📁 Key Components
+This project is useful for robotics education, innovation planning, and AI training programs. Key features include:
 
-| File/Folder            | Description |
-|------------------------|-------------|
-| `launch/`              | Bringup, teleop, SLAM, and navigation launch files |
-| `maps/`                | Saved map files for localization |
-| `rviz/navigation.rviz` | RViz config showing map, laser, robot, goals |
+- Autonomous indoor navigation with real-time obstacle avoidance
+- Smart team training in AI, automation, and robotics
+- Demonstrations for innovation labs, R&D teams, or educational settings
+- Clear insight into robotics workflows and how AI systems "see" and act
 
-### 🧪 Demo Steps
+### Technical Overview
 
-1. **Bring up the robot:**
-   ```bash
-   roslaunch turtlebot3_bringup turtlebot3_robot.launch
+This section outlines the core architecture, packages, and files used in the ROS 1-based implementation.
+
+#### Technologies Used
+
+- **Operating System**: Ubuntu 18.04 or 20.04
+- **ROS Distribution**: Melodic or Noetic
+- **Robot Platform**: TurtleBot3 (Burger model)
+
+#### ROS Packages
+
+- `turtlebot3_bringup`: Robot initialization
+- `turtlebot3_teleop`: Keyboard teleoperation
+- `turtlebot3_slam`: SLAM implementation using GMapping
+- `turtlebot3_navigation`: Autonomous path planning and navigation
+- `map_server`: Map saving and loading
+- `rviz`: Visualization of real-time robot data
+
+---
+
+## SLAM and Navigation Workflow
+
+- Navigate the robot in a simulated or real-world space
+- Use SLAM to scan and build a map dynamically
+- Save map data for future autonomous navigation
+- Load map and localize robot position for efficient pathfinding
+
+---
+
+## Project Directory Structure
+
+| Path | Description |
+|------|-------------|
+| `launch/` | Launch files for bringup, SLAM, teleop, and navigation |
+| `maps/` | Contains generated maps used for localization |
+| `rviz/navigation.rviz` | Preconfigured RViz visualization layout |
+
+---
+
+## Demo: Bring Up the Robot
+
+### 1. Start ROS Master
+
+```bash
+roscore
+#new terminal
+roslaunch turtlebot3_bringup turtlebot3_robot.launch
+#new terminal
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+#new terminal
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+#new terminal
+rosrun map_server map_saver -f ~/maps/my_map
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=~/maps/my_map.yaml
+
