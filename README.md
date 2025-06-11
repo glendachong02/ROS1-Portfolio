@@ -4,7 +4,6 @@ A structured, multi-audience portfolio showcasing Robot Operating System (ROS 1)
 
 ![ROS Version](https://img.shields.io/badge/ROS-1-brightgreen)
 ![Language](https://img.shields.io/badge/language-Python-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Gazebo%20%7C%20Ubuntu-important)
 
 ---
