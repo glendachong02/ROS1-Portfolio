@@ -1,98 +1,80 @@
-# 🤖 ROS 1 Digital Portfolio
+# ROS 1 Digital Portfolio – Team 3
 
-Welcome to Team 3 ROS 1 Digital Portfolio — a structured showcase of Robot Operating System (ROS) 1 concepts, use cases, and demonstrations, tailored for three different audiences:
+A structured, multi-audience portfolio showcasing Robot Operating System (ROS 1) projects with real-world and simulated applications. Designed to inform non-technical stakeholders, support technical understanding, and enable machine-readable indexing.
 
-- 🧑‍💼 **Non-Technical**: Understand how ROS fits into workforce needs and tech roles
-- 🧑‍💻 **Technical**: Dive into technical systems, architecture, and tooling
-- 🤖 **Bots/Docs Readers**: Access machine-readable metadata for automation and indexing
-
----
-
-## 🔍 Overview
-
-ROS 1 (Robot Operating System) is an open-source middleware for developing modular robotic systems. It allows developers to build, simulate, and control robots using a publish-subscribe architecture.
-
-This repository includes:
-
-- 🔧 Our code projects (TurtleBot navigation, Gazebo simulation)
-- 📄 Audience-specific breakdowns
-- 📊 Visuals and architecture diagrams
-- 📚 Learning and migration resources
+![ROS Version](https://img.shields.io/badge/ROS-1-brightgreen)
+![Language](https://img.shields.io/badge/language-Python-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-Gazebo%20%7C%20Ubuntu-important)
 
 ---
 
-## 🧑‍💼 For Non-Technical
+## Overview
 
-📄 [Non-Technical.md](Non-technical.md)
+ROS 1 (Robot Operating System) is a modular open-source middleware used to develop, simulate, and control robotic systems. This repository demonstrates ROS capabilities through projects like TurtleBot navigation and Gazebo simulations.
 
-- What is ROS 1?
-- Why it's important in modern robotics hiring
-- How it supports innovation and teamwork
-- Hiring tips: what to look for in a ROS-ready candidate
+### Contents
 
----
-
-## 🧑‍💻 For Technical
-
-📄 [Technical.md](Technical.md)
-
-- ROS 1 architecture (nodes, topics, services)
-- System integration: sensors, SLAM, navigation, simulation
-- Development tools and packages
-- Tips for infrastructure setup and long-term maintainability
+- Source code for ROS 1 projects
+- Audience-specific breakdowns
+- Visuals and architecture diagrams
+- Learning resources and migration support
+- Structured metadata for bots and indexing systems
 
 ---
 
-## 🤖 For Bots / Automation Systems
+## Audience Sections
 
-🧾 [bots.json](bots.json)
+### Non-Technical Guide: ROS in Industry and Hiring
 
-Includes structured data:
-- Core ROS concepts
-- Supported languages
-- System requirements
-- Package structure and API keywords
+Refer to `Non-Technical.md` for:
 
----
+- What is ROS 1 and why it matters
+- Workforce relevance: where ROS is used
+- How robotics supports innovation and collaboration
+- Tips for hiring or evaluating a ROS-ready candidate
 
-## 🚀 Projects
+### Technical Overview: ROS Architecture and Tools
 
-📂 `projects/` contains real-world and simulated ROS 1 applications:
+Refer to `Technical.md` for:
 
-- [TurtleBot Navigation](projects/turtlebot_navigation/)
-  - Bringup, teleoperation, SLAM, AMCL
-- [Gazebo Simulation](projects/gazebo_simulation/)
-  - Simulated environments for testing navigation and mapping
+- Core ROS concepts: nodes, topics, services, actions
+- System integration: sensors, SLAM, navigation
+- Tools: Gazebo, RViz, TF, launch files
+- Development workflows and maintenance strategies
 
----
+### Automation-Ready Metadata for Bots
 
-## 🖼️ Visuals
+Refer to `bots.json` for machine-readable structure, including:
 
-📂 `visuals/` contains:
-- ROS node architecture diagrams
-- RViz screenshots of SLAM/mapping
-- TF (transform) tree examples
-
----
-
-## 📚 Resources
-
-📂 `resources/` includes:
-- [ROS wiki & tutorials](resources/ROS_wiki_links.md)
-- [Learning paths](resources/learning_paths.md)
-- [ROS 1 → ROS 2 migration tips](resources/transition_to_ros2.md)
+- Supported languages and environments
+- Core ROS 1 concepts and terminology
+- System requirements and package structure
+- API-relevant keywords
 
 ---
 
-## ⚙️ Run Instructions
+## Project Portfolio
 
-### 1. Manual Bringup (development)
-```bash
-roscore  # Start ROS master (manual mode)
+| Project | Description | Skills Demonstrated | Tools Used |
+|--------|-------------|---------------------|------------|
+| TurtleBot Navigation | SLAM and autonomous navigation with real-time localization | Teleoperation, GMapping, AMCL | TurtleBot3, ROS 1, RViz |
+| Gazebo Simulation | Simulated 3D test environments for ROS application testing | Simulation, TF trees, URDF | Gazebo, ROS 1 |
 
-# In a new terminal
-roslaunch turtlebot_bringup minimal.launch
-# In a new terminal
-roslaunch turtlebot_teleop keyboard_teleop.launch
-# In a new terminal
-roslaunch turtlebot_navigation gmapping_demo.launch
+Source code located in the `projects/` directory.
+
+---
+
+## Visual Assets
+
+Located in the `visuals/` folder:
+
+- Node architecture diagrams
+- SLAM and map outputs in RViz
+- TF tree examples for transform visualization
+
+Example:
+
+```markdown
+![GMapping SLAM Output](visuals/slam_output_map1_rviz.png)
+*Figure: SLAM map generated using GMapping in RViz.*
