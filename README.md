@@ -18,4 +18,4 @@ ROS 1 (Robot Operating System) is a flexible, open-source framework that helps d
 
 ## Contact
 - Email: glendachong02@gmail.com
-- LinkdIn: linkedin.com/in/glenda-chong-yi-xuan
+- LinkdIn: [linkedin.com/in/glenda-chong-yi-xuan](https://www.linkedin.com/in/glenda-chong-yi-xuan/)
