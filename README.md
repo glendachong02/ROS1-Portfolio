@@ -10,8 +10,12 @@ ROS 1 (Robot Operating System) is a flexible, open-source framework that helps d
 - Source code for ROS 1 projects
 - Navigation
 - Arena Design & Creation
-- 
+
 ## Navigation
 
 ## Arena Design & Creation
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/871ac11b-b055-4dc1-9c33-c7b02d24cf49" />
+
+## Contact
+Email: glendachong02@gmail.com
+LinkdIn: linkedin.com/in/glenda-chong-yi-xuan
