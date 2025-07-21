@@ -34,6 +34,7 @@ The LIMO robot performs SLAM and path planning to autonomously navigate through 
 - `gmapping`
 - `amcl`
 
+This is an example of the LIMO robot's waypoint coordinate:
 <div align="center">
   <img width="719" height="73" alt="image" src="https://github.com/user-attachments/assets/3f0b2c78-60d9-4815-8b4a-6d10ec31f432" />
 </div>
