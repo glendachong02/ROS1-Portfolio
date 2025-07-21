@@ -43,7 +43,7 @@ This is an example of the LIMO robot's waypoint coordinate:
 
 ## Arena Design & Creation
 
-The arena was designed to simulate real-world scenarios, including narrow paths and obstacle-rich regions. Gazebo and RViz were used to test and visualize the robot's performance.
+The arena was designed to simulate real-world scenarios, including narrow paths and obstacle-rich regions. RViz was used to test and visualize the robot's performance.
 
 <div align="center">
   <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/0d123a62-a196-45aa-9d9e-45598e793295" />
