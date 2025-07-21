@@ -1,7 +1,6 @@
 # ROS1-Portfolio
 ![ROS Version](https://img.shields.io/badge/ROS-Melodic-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-Completed-success)
 
 ## Overview
 
